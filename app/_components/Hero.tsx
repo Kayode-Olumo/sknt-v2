@@ -4,6 +4,7 @@ import skntLogo from "../../public/sknt-logo.png";
 import AppStoreImg from "../../public/AppStore.png";
 import GooglePlayImg from "../../public/GooglePlay.png";
 import Banner from "./Banner";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -43,12 +44,12 @@ const Hero = () => {
           </span>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              className="block w-full rounded-full bg-slate-950 px-12 py-3 text-lg font-medium text-white shadow  focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-              href="#"
+            <Link
+              className="block w-full rounded-full bg-slate-950 px-12 py-3 text-lg font-medium text-white shadow  focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
+              href="/sign-up"
             >
               Sign up
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -65,7 +66,7 @@ const Hero = () => {
           src={"/"}
           width={1000}
           height={700}
-          className="-mt-9 rounded-xl border-2"
+          className="mt-16 mb-16 rounded-xl border-2"
           alt={""}
         />
       </div>
