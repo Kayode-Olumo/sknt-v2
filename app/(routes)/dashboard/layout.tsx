@@ -14,7 +14,7 @@ const DashboardLayout: FC<IDashboardLayout> = ({ children }) => {
       >
         <SideBar />
       </div>
-      <div className="md:ml-[17rem] p-6 m-4">{children}</div>
+      <main className="md:ml-[17rem] p-6 m-4 md:px-14 px-3">{children}</main>
     </div>
   );
 };

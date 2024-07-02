@@ -42,7 +42,7 @@ const DashboardBanner = () => {
     <div>
       <div>
         <h2 className="text-4xl">
-          Good {timeOfDay}, {capitalizeFirstLetter(user.firstName)}
+          Good {timeOfDay}, {capitalizeFirstLetter(user.firstName)} 👋🏼
         </h2>
         <p className="text-stone-500 text-[1.2rem]">
           {today} |{" "}
