@@ -35,7 +35,14 @@ export default function Page() {
                 <span className="italic font-light text-primary">moolah..</span>
               </h1>
             </div>
-
+            <div className="text-center pt-16 space-y-4">
+              <h1 className="font-bold text-3xl text-[#2e2a47]">
+                New to sknt. ?
+              </h1>
+              <p className="text-base text-[#7e8ca0] pb-8 space-y-4">
+                Login or sign up to get access to the dashboard
+              </p>
+            </div>
             <SignUp />
           </div>
         </main>

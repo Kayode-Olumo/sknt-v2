@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1719942894984,
+      "tag": "0000_brainy_umar",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1719944065579,
+      "tag": "0001_sharp_morph",
+      "breakpoints": true
+    }
+  ]
+}
